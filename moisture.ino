@@ -28,7 +28,7 @@ int waterForMills = 3500;
 byte serverIP[] = { 54, 247, 99, 12 };
 
 //  your network config
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
+byte mac[] = { 0xAB, 0xCD, 0xEF, 0xDE, 0xAD, 0xFF };
 byte ip[] = { 192, 168, 1, 1 }; 
 byte submask[] = { 255, 255, 255, 0 };
 byte gateway[] = { 192, 168, 1, 254 };
