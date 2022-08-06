@@ -153,7 +153,7 @@ void postToServer(int moisture, int watered) {
   client.println("POST /1.0/event/put HTTP/1.0");
   client.println("Content-Length: " + String(strlen(moistureJsonStr)));
   client.println("Connection: keep-alive");
-  client.println("cube-password: test");
+//client.println("cube-password: test"); // for using with cube server, not recommended
   client.println();
   client.println(moistureJsonStr);
 }
